@@ -21,3 +21,5 @@ this.currenttime = d;
 constructor (h: number , m: number){}
 }
 
+//when a class inplemnet s an interface, only the instance side of the class is checked
+//since the consructor sits in the static side, it is not included in this check.

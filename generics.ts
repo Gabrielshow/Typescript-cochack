@@ -10,3 +10,12 @@ console.log(output1);
 let output2 = identity3("my string");
 console.log(output2);
 
+function loggingidentity<T>(arg: T[]): T[] {
+console.log(arg.length);
+return arg;
+}
+
+function loggingidentity2<T>(arg: Array<T>): Array<T>{
+console.log(arg.length);
+return arg;}
+

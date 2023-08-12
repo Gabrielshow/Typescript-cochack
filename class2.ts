@@ -27,4 +27,4 @@ let sam = new snake("sammy the python");
 let tom : Animal = new horse("Tommy the Palomino");
 sam.move();
 tom.move(34);
-tom.move();
+tom.move(); //default value of 45 will be shown
